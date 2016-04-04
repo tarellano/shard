@@ -27,6 +27,7 @@ namespace ShuntingYard
             Console.WriteLine();
             Console.WriteLine("Calculating Result...");
             Console.WriteLine(calculateRPN(outputQueue));
+           
             Console.ReadLine();
         }
 
@@ -144,12 +145,6 @@ namespace ShuntingYard
                     }
 
                 }
-                foreach (string value in outputStack)
-                {
-                    Console.Write(value + " ");
-                }
-                Console.WriteLine();
-
             }
 
             if (outputStack.Count == 1)
