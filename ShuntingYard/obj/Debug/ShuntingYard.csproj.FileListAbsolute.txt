@@ -1,0 +1,6 @@
+C:\Users\Thomas Arellano\Documents\Visual Studio 2015\Projects\ShuntingYard\ShuntingYard\bin\Debug\ShuntingYard.exe.config
+C:\Users\Thomas Arellano\Documents\Visual Studio 2015\Projects\ShuntingYard\ShuntingYard\bin\Debug\ShuntingYard.exe
+C:\Users\Thomas Arellano\Documents\Visual Studio 2015\Projects\ShuntingYard\ShuntingYard\bin\Debug\ShuntingYard.pdb
+C:\Users\Thomas Arellano\Documents\Visual Studio 2015\Projects\ShuntingYard\ShuntingYard\obj\Debug\ShuntingYard.csprojResolveAssemblyReference.cache
+C:\Users\Thomas Arellano\Documents\Visual Studio 2015\Projects\ShuntingYard\ShuntingYard\obj\Debug\ShuntingYard.exe
+C:\Users\Thomas Arellano\Documents\Visual Studio 2015\Projects\ShuntingYard\ShuntingYard\obj\Debug\ShuntingYard.pdb
