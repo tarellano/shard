@@ -41,6 +41,9 @@ namespace ShuntingYard
                 if (isANumber(token[i]))
                 {
                     outputQueue.Enqueue(token[i]);
+                }else if (token[i].Equals("^"))
+                {
+                    operatorStack.Push(token[i]);
                 }
                 else if (operatorPrecedence(token[i]) != -1)
                 {
@@ -91,6 +94,9 @@ namespace ShuntingYard
                 case '/':
                     precedence = 3;
                     break;
+                case '^':
+                    precedence = 4;
+                    break;
                     
                 default:
                     precedence = -1;
@@ -138,7 +144,10 @@ namespace ShuntingYard
                         {
                             result = divideValues(Convert.ToDouble(value1), Convert.ToDouble(value2));
                         }
-
+                        else if (s.Equals("^"))
+                        {
+                            result = exponentValues(Convert.ToDouble(value1), Convert.ToDouble(value2));
+                        }                        
                         string retVal = Convert.ToString(result);
                         outputStack.Push(retVal);
 
@@ -180,6 +189,12 @@ namespace ShuntingYard
         static double multiplyValues (double a, double b)
         {
             double product = a * b;
+            return product;
+        }
+
+        static double exponentValues( double a, double b)
+        {
+            double product = Math.Pow(b, a);
             return product;
         }
     }
