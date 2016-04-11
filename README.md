@@ -10,7 +10,7 @@ Here are some good starting places:
 + [wiki](https://en.wikipedia.org/wiki/Shunting-yard_algorithm)
 + [Oxford's Math Centre](http://www.oxfordmathcenter.com/drupal7/node/628)
 
-This algorithm is very helpful when trying to parse mathematical formulas as calculations using Reverse Polish Notation (RPN) is much more computer friendly.
+This algorithm is very helpful when trying to parse mathematical formulas as calculations using Reverse Polish Notation (RPN) are much more computer friendly.
 I recently used this algorithm in my [K-map solver](http://github.com/tarellano/canoe) to parse boolean functions and determine their corresponding truth table/ K-map.
 
 I'll leave you to find a suitable use for this algorithm.
